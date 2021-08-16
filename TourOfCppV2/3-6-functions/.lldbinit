@@ -1,0 +1,3 @@
+target create structured-binding
+command source ../.lldbinit
+binsp structured_bind

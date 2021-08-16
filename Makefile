@@ -1,3 +1,4 @@
+# maintained in cpp.org
 CPP_COMPILER ?= clang++
 CPP_STANDARD ?= c++17
 DEBUG_FLAGS ?= -g3 -O0
@@ -36,4 +37,4 @@ CC := $(CPP_COMPILER) $(CPP_COMPILER_FLAGS)
 .PHONY:	clean
 
 clean:
-        find . -maxdepth 1 -name "*.o" -exec rm {} + && find . -maxdepth 1 -type f -executable -exec rm {} +
+	find . -maxdepth 1 -name "*.o" -exec rm {} + && find . -maxdepth 1 -type f -executable -exec rm {} +

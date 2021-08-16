@@ -1,0 +1,2 @@
+target create exceptions
+command source -s true ../.lldbinit

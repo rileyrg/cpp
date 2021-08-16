@@ -1,20 +1,29 @@
-- [cpp](#org86f3998)
-  - [Makefile](#org17a6fcd)
+- [cpp](#org0f84d8c)
+  - [Makefile](#orgb331271)
+  - [HelloWorld](#orgb08ff50)
+  - [A Tour Of C++ Version 2](#org9bf8935)
+    - [[2-3 classes](TourOfCppV2/2-3-classes)](#org79931c9)
+    - [[2-5-enumerations](TourOfCppV2/2-5-enumerations)](#orged337a9)
+    - [[3-5-error-handling](TourOfCppV2/3-5-error-handling)](#org8b152b1)
+    - [[3-6-functions](TourOfCppV2/3-6-functions)](#org565801f)
 
 
 
-<a id="org86f3998"></a>
+<a id="org0f84d8c"></a>
 
 # cpp
 
-Probably overkill, but just a quick repo to store some common cpp helpers
+C++ relearning initiative. Starting with Stroustrup's "A Tour Of C++ Version 2".
 
 
-<a id="org17a6fcd"></a>
+<a id="orgb331271"></a>
 
 ## Makefile
 
+A generic type [makefile](Makefile). Probably going to be changed a lot
+
 ```makefile
+# maintained in cpp.org
 CPP_COMPILER ?= clang++
 CPP_STANDARD ?= c++17
 DEBUG_FLAGS ?= -g3 -O0
@@ -55,3 +64,37 @@ CC := $(CPP_COMPILER) $(CPP_COMPILER_FLAGS)
 clean:
         find . -maxdepth 1 -name "*.o" -exec rm {} + && find . -maxdepth 1 -type f -executable -exec rm {} +
 ```
+
+
+<a id="orgb08ff50"></a>
+
+## HelloWorld
+
+Every project starts with a [HelloWorld](HelloWorld/hello-world.cpp)
+
+
+<a id="org9bf8935"></a>
+
+## A Tour Of C++ Version 2
+
+[A Tour Of C++ Version 2](TourOfCppV2) seems a great book. Some of the examples here as code.
+
+
+<a id="org79931c9"></a>
+
+### [2-3 classes](TourOfCppV2/2-3-classes)
+
+
+<a id="orged337a9"></a>
+
+### [2-5-enumerations](TourOfCppV2/2-5-enumerations)
+
+
+<a id="org8b152b1"></a>
+
+### [3-5-error-handling](TourOfCppV2/3-5-error-handling)
+
+
+<a id="org565801f"></a>
+
+### [3-6-functions](TourOfCppV2/3-6-functions)

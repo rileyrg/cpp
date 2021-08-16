@@ -1,5 +1,12 @@
+# Ignore everything
 *
-!/.gitignore
-!/cpp.org
-!/Makefile
-!/README.md
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore .gitignore etc
+
+!.gitignore
+!Makefile
+!*.cpp
+!.lldbinit
+!.projectile
