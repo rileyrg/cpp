@@ -1,0 +1,3 @@
+target create arithmetic
+command source ../.lldbinit
+binsp structured_bind
