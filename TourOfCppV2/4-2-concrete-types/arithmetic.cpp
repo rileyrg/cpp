@@ -29,6 +29,7 @@ public:
 
 int main(){
      complex z={1,0};
-     const complex cz{1,3};
+     const complex cz{1,3}; // dbg_1
+debug_complex_add:
      z+=cz;
 }
