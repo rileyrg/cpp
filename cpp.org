@@ -17,24 +17,35 @@
 :PROPERTIES:
 :END:
 C++ relearning initiative. Starting with Stroustrup's "A Tour Of C++ Version 2".
-** Makefile
+
+** Tools
+
+*** Makefile
 A generic type [[file:Makefile][makefile]]. Probably going to be changed a lot
 
 #+include: "Makefile" src makefile
+
 ** HelloWorld
-Every project starts with a [[file:HelloWorld/hello-world.cpp::include <cstdlib>][HelloWorld]]
-** [[file:Snippets/VTablesAssembler][Snippets]]
-A subdirectory containing various little bits and pieces picked up from C++ tutorials.
-*** [[file:Snippets/VTablesAssembler][VTablesAssembler]]
-An [[https://guihao-liang.github.io/2020/05/30/what-is-vtable-in-cpp][article]] on examining vtable in assembler.
-*** [[file:Snippets/Dynamic-vs-Static-Cast][C++ static_cast vs dynamic_cast]]
-:LOGBOOK:
-- State "TODO"       from              [2021-08-25 Wed 06:48]
-:END:
-A [[https://www.youtube.com/watch?v=0AuPWXuBmyo][video]] showing the differences between C++ static_cast and dynamic_cast.
+
+Every project starts with a [[file:HelloWorld/hello-world.cpp::include <cstdlib>][HelloWorld]].
+
 ** A Tour Of C++ Version 2
+
 [[file:TourOfCppV2][A Tour Of C++ Version 2]] seems a great book. Some of the examples here as code.
+
 *** [[file:TourOfCppV2/2-3-classes][2-3 classes]]
 *** [[file:TourOfCppV2/2-5-enumerations][2-5-enumerations]]
 *** [[file:TourOfCppV2/3-5-error-handling][3-5-error-handling]]
 *** [[file:TourOfCppV2/3-6-functions][3-6-functions]]
+
+** [[file:Snippets/VTablesAssembler][Snippets]]
+
+A subdirectory containing various little bits and pieces picked up from C++ tutorials.
+
+*** [[file:Snippets/VTablesAssembler][VTablesAssembler]]
+
+An [[https://guihao-liang.github.io/2020/05/30/what-is-vtable-in-cpp][article]] on examining vtable in assembler.
+
+*** [[file:Snippets/Dynamic-vs-Static-Cast][C++ static_cast vs dynamic_cast]]
+
+A [[https://www.youtube.com/watch?v=0AuPWXuBmyo][video]] showing the differences between C++ static_cast and dynamic_cast.

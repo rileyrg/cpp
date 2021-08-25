@@ -9,6 +9,7 @@ struct Entry {
 
 Entry read_entry(std::istream &is){
      std::string s;
+     std::cout <<  "Please enter two numbers seperated with newlines." << std::endl  ;
      int i;
      is >> s >> i;
      return{s,i};

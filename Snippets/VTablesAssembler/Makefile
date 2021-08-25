@@ -9,3 +9,6 @@ vtables:	vtables.cpp
 #https://guihao-liang.github.io/2020/05/30/what-is-vtable-in-cpp
 vtables-layout:
 	clang++ -Xclang -fdump-record-layouts vtables.cpp
+
+run:	vtables
+	alacritty -e zsh -c './vtables;zsh'
