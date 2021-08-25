@@ -27,12 +27,11 @@ Every project starts with a [[file:HelloWorld/hello-world.cpp::include <cstdlib>
 A subdirectory containing various little bits and pieces picked up from C++ tutorials.
 *** [[file:Snippets/VTablesAssembler][VTablesAssembler]]
 An [[https://guihao-liang.github.io/2020/05/30/what-is-vtable-in-cpp][article]] on examining vtable in assembler.
-*** TODO C++ static_cast vs dynamic_cast
+*** [[file:Snippets/Dynamic-vs-Static-Cast][C++ static_cast vs dynamic_cast]]
 :LOGBOOK:
 - State "TODO"       from              [2021-08-25 Wed 06:48]
 :END:
-A [[https://www.youtube.com/watch?v=0AuPWXuBmyo][video]] showing the differences between C++ static_cast and dynamic_cast
-
+A [[https://www.youtube.com/watch?v=0AuPWXuBmyo][video]] showing the differences between C++ static_cast and dynamic_cast.
 ** A Tour Of C++ Version 2
 [[file:TourOfCppV2][A Tour Of C++ Version 2]] seems a great book. Some of the examples here as code.
 *** [[file:TourOfCppV2/2-3-classes][2-3 classes]]

@@ -10,3 +10,4 @@
 !*.cpp
 !.lldbinit
 !.projectile
+!.dir-locals.el
