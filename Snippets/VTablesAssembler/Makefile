@@ -1,7 +1,7 @@
 all: vtables-layout
 
 
-include ../Makefile
+include ../../Makefile
 
 vtables:	vtables.cpp
 	$(CC) $@.cpp -o $@
