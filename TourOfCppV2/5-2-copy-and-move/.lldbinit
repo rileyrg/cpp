@@ -1,3 +1,2 @@
 target create vector
 command source ../.lldbinit
-break set --name test_copy

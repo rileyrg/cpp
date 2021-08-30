@@ -8,10 +8,12 @@ public:
      Vector &operator= (const Vector & a); // copy assignment
 
      Vector(Vector && a); // move constructor
-     Vector &operator= (Vector && a); // movet assignment
+     Vector &operator= (Vector && a); // move assignment
 
-     double &operator[](int i){return elem[i];}
-     int size() { return sz;}
+     double &operator[] (const int i) const {return elem[i];}
+
+     int size() const { return sz;}
+
 private:
      double *elem;
      int sz;
