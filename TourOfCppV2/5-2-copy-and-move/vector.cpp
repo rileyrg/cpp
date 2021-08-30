@@ -3,19 +3,34 @@
 
 #include "vector.h"
 
-Vector::Vector(const Vector& a)
+Vector::Vector(const Vector& a) // copy constructor
      :elem{new double[a.sz]},sz{a.sz}{
      for(int i=0;i!=sz;i++){
           elem[i]=a.elem[i];
      }
+};
+
+Vector::Vector(Vector && a) // move constructor
+     :elem{new double[a.sz]},sz{a.sz}{
+     a.elem=nullptr;
+     a.sz=0;
 }
 
-Vector& Vector::operator= (const Vector& a){
+Vector& Vector::operator= (const Vector& a){ // copy assignment
      delete [] elem;
      elem = new double[a.sz];
      sz=a.sz;
      for(int i=0; i!=a.sz;i++)
           elem[i]=a.elem[i];
+     return *this;
+}
+
+Vector& Vector::operator= (Vector&& a){ // move  assignment
+     delete [] elem;
+     elem = a.elem;
+     sz=a.sz;
+     a.elem=nullptr;
+     a.sz=0;
      return *this;
 }
 
@@ -30,7 +45,9 @@ void test_copy(){
      v1[0]=1;
      Vector v2=v1;
      v2[1]=2;
+     v1=v1+v2; // has BS forgotten to define the addition?!? 5-2-2
      Vector v3(v2);
+illegal_access:
      v3[2]=3;
      v3 = v1;
 }
