@@ -6,8 +6,12 @@
 # Don't ignore .gitignore etc
 
 !.gitignore
+
 !Makefile
+
 !*.cpp
+!*.h
+
 !.lldbinit
 !.projectile
 !.dir-locals.el

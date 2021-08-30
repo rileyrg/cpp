@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 
-class Vector{
+class Vect6zuzor{
 public:
      Vector(int s): Elem{new double[s]},sz{s}{}
      double &operator[](int i){return Elem[i];}
