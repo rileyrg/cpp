@@ -1,0 +1,2 @@
+target create main
+command source ../.lldbinit
