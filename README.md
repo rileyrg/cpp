@@ -1,31 +1,34 @@
-- [cpp](#orgd56f3ec)
-  - [Tools](#org80f55c2)
-    - [Makefile](#org857aaf0)
-  - [HelloWorld](#org784a3b6)
-  - [A Tour Of C++ Version 2](#org48c452d)
-    - [[2-3 classes](TourOfCppV2/2-3-classes)](#orgb4cae52)
-    - [[2-5-enumerations](TourOfCppV2/2-5-enumerations)](#org03b7874)
-    - [[3-5-error-handling](TourOfCppV2/3-5-error-handling)](#orgff47045)
-    - [[3-6-functions](TourOfCppV2/3-6-functions)](#orgda903c6)
-  - [[Snippets](Snippets/VTablesAssembler)](#org88c0b67)
-    - [[VTablesAssembler](Snippets/VTablesAssembler)](#org90dbdcc)
-    - [[C++ static<sub>cast</sub> vs dynamic<sub>cast</sub>](Snippets/Dynamic-vs-Static-Cast)](#org24a3b0f)
+- [cpp](#org9e9ce92)
+  - [Tools](#org19102ad)
+    - [Makefile](#org8efaeee)
+  - [HelloWorld](#org22d0ed0)
+  - [A Tour Of C++ Version 2](#org1ff0e5c)
+    - [[2-3 classes](TourOfCppV2/2-3-classes)](#orgbe7adae)
+    - [[2-5-enumerations](TourOfCppV2/2-5-enumerations)](#org20e03c9)
+    - [[3-5-error-handling](TourOfCppV2/3-5-error-handling)](#orgedf3faa)
+    - [[3-6-functions](TourOfCppV2/3-6-functions)](#org7907983)
+    - [[5-2-copy-and-move](TourOfCppV2/5-2-copy-and-move)](#org127f948)
+    - [[4-2-concrete-types](TourOfCppV2/4-2-concrete-types)](#org2f1811f)
+    - [[5-3-resource-management](TourOfCppV2/5-3-resource-management)](#org6f1ba47)
+  - [[Snippets](Snippets/VTablesAssembler)](#orgb4f0016)
+    - [[VTablesAssembler](Snippets/VTablesAssembler)](#org5c8bad8)
+    - [[C++ static<sub>cast</sub> vs dynamic<sub>cast</sub>](Snippets/Dynamic-vs-Static-Cast)](#org2daef7b)
 
 
 
-<a id="orgd56f3ec"></a>
+<a id="org9e9ce92"></a>
 
 # cpp
 
 C++ relearning initiative. Starting with Stroustrup's "A Tour Of C++ Version 2".
 
 
-<a id="org80f55c2"></a>
+<a id="org19102ad"></a>
 
 ## Tools
 
 
-<a id="org857aaf0"></a>
+<a id="org8efaeee"></a>
 
 ### Makefile
 
@@ -75,55 +78,70 @@ clean:
 ```
 
 
-<a id="org784a3b6"></a>
+<a id="org22d0ed0"></a>
 
 ## HelloWorld
 
 Every project starts with a [HelloWorld](HelloWorld/hello-world.cpp).
 
 
-<a id="org48c452d"></a>
+<a id="org1ff0e5c"></a>
 
 ## A Tour Of C++ Version 2
 
-[A Tour Of C++ Version 2](TourOfCppV2) seems a great book. Some of the examples here as code.
+[A Tour Of C++ Version 2](TourOfCppV2) seems a great book. Some of the examples here as loosely related experimental code.
 
 
-<a id="orgb4cae52"></a>
+<a id="orgbe7adae"></a>
 
 ### [2-3 classes](TourOfCppV2/2-3-classes)
 
 
-<a id="org03b7874"></a>
+<a id="org20e03c9"></a>
 
 ### [2-5-enumerations](TourOfCppV2/2-5-enumerations)
 
 
-<a id="orgff47045"></a>
+<a id="orgedf3faa"></a>
 
 ### [3-5-error-handling](TourOfCppV2/3-5-error-handling)
 
 
-<a id="orgda903c6"></a>
+<a id="org7907983"></a>
 
 ### [3-6-functions](TourOfCppV2/3-6-functions)
 
 
-<a id="org88c0b67"></a>
+<a id="org127f948"></a>
+
+### [5-2-copy-and-move](TourOfCppV2/5-2-copy-and-move)
+
+
+<a id="org2f1811f"></a>
+
+### [4-2-concrete-types](TourOfCppV2/4-2-concrete-types)
+
+
+<a id="org6f1ba47"></a>
+
+### [5-3-resource-management](TourOfCppV2/5-3-resource-management)
+
+
+<a id="orgb4f0016"></a>
 
 ## [Snippets](Snippets/VTablesAssembler)
 
 A subdirectory containing various little bits and pieces picked up from C++ tutorials.
 
 
-<a id="org90dbdcc"></a>
+<a id="org5c8bad8"></a>
 
 ### [VTablesAssembler](Snippets/VTablesAssembler)
 
 An [article](https://guihao-liang.github.io/2020/05/30/what-is-vtable-in-cpp) on examining vtable in assembler.
 
 
-<a id="org24a3b0f"></a>
+<a id="org2daef7b"></a>
 
 ### [C++ static<sub>cast</sub> vs dynamic<sub>cast</sub>](Snippets/Dynamic-vs-Static-Cast)
 
