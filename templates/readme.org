@@ -1,0 +1,16 @@
+#+TITLE: MYTITLE
+#+AUTHOR: rileyrg
+#+EMAIL: rileyrg at g m x dot de
+
+#+LANGUAGE: en
+#+STARTUP: showall
+
+#+EXPORT_FILE_NAME: README.md
+#+OPTIONS: toc:8 num:nil
+
+#+category: cpp
+#+FILETAGS: :cpp:
+
+#+PROPERTY: header-args:bash :tangle-mode (identity #o655)
+
+* SectionName

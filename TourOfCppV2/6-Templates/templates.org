@@ -1,0 +1,18 @@
+#+TITLE: Templates from section 6-2 of A Tour Of Cpp V2
+#+AUTHOR: rileyrg
+#+EMAIL: rileyrg at g m x dot de
+
+#+LANGUAGE: en
+#+STARTUP: showall
+
+#+EXPORT_FILE_NAME: README.md
+#+OPTIONS: toc:8 num:nil
+
+#+category: cpp
+#+FILETAGS: :cpp:
+
+#+PROPERTY: header-args:bash :tangle-mode (identity #o655)
+
+* RVO
+
+https://stackoverflow.com/questions/69114044/when-do-you-need-to-explicitly-call-stdmove-and-when-not-in-cpp?noredirect=1#comment122161917_69114044

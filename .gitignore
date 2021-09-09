@@ -9,6 +9,9 @@
 
 !Makefile
 
+!*.org
+!*.md
+
 !*.cpp
 !*.h
 
