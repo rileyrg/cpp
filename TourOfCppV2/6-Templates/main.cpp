@@ -94,7 +94,7 @@ template<typename T>
 Vector<T> moveVectorAfterAdd(const Vector<T> &  v1, const Vector<T> & v2){
      Vector<T> r =   v1+v2;
      // return std::move(r);
-     return r;
+     return r; //RVO
 }
 
 int main(void) {
