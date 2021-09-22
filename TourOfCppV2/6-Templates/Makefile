@@ -10,3 +10,6 @@ function-templates: function-templates.cpp
 
 function-objects: function-objects.cpp
 	$(CC) $@.cpp -o $@
+
+lambdas: lambdas.cpp
+	$(CC) $@.cpp -o $@

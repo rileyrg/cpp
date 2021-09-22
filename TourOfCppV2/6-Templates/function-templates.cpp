@@ -13,7 +13,7 @@ Value Sum(const Sequence& s, Value v)
 
 int main(void) {
 
-     std::vector<int> vi{1,2,3,4};
+     std::svector<int> vi{1,2,3,4};
      std::vector<std::complex<double>> vc{{1,2},{3,4}};
      std::list<double> ld{1.1,1.2,1.3};
 
