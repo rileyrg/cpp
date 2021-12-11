@@ -6,7 +6,7 @@
 std::vector<int> moveVector(int const n) {
   std::vector<int> v(n);
   for (std::vector<int>::size_type i = 0; i != v.size(); i++) {
-       v[i]=i;;
+       v[i]=i;
   }
   std::cout <<  "vector data address before return : " << v.data() << std::endl ;
 move_vector:

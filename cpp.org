@@ -31,7 +31,7 @@ Every project starts with a [[file:HelloWorld/hello-world.cpp::include <cstdlib>
 
 ** A Tour Of C++ Version 2
 
-[[file:TourOfCppV2][A Tour Of C++ Version 2]] seems a great book. Some of the examples here as loosely related experimental  code.
+[[file:TourOfCppV2][A Tour Of C++ Version 2]]. Some of the examples here as loosely related experimental  code.
 
 *** [[file:TourOfCppV2/2-3-classes][2-3 classes]]
 *** [[file:TourOfCppV2/2-5-enumerations][2-5-enumerations]]

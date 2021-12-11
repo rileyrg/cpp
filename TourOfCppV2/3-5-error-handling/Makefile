@@ -1,4 +1,4 @@
-include ../Makefile
+include ../../Makefile
 
 all: exceptions invariants static-assertions
 
