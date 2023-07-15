@@ -1,7 +1,7 @@
 # maintained in cpp.org
 CPP_COMPILER ?= clang++
 CPP_STANDARD ?= c++11
-DEBUG_FLAGS ?= -g3 -O0
+DEBUG_FLAGS ?= -ggdb -O0
 
 ENABLE_WARNINGS ?= 1
 WARNINGS_AS_ERRORS ?= 0

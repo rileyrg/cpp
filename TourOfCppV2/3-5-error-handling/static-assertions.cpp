@@ -7,6 +7,7 @@ class Vector {
 private:
   double *elem;
   int sz;
+
 public:
   Vector(int s) {
     // change 4 to 8 in the editor if using an lsp and... magic
@@ -17,7 +18,6 @@ public:
   }
 
   double &operator[](int i) {
-
     if (i < 0 || i >= this->size())
       throw std::out_of_range{"index out of range"};
     return this->elem[i];
@@ -26,4 +26,11 @@ public:
   int size() { return sz; }
 };
 
-int main() { return EXIT_SUCCESS; }
+int main() {
+  Vector v = Vector(5);
+  ;
+  v[2] = 2.0;
+  v[11] = 3.0;
+  std::cout << "Done!" << std::endl;
+  return EXIT_SUCCESS;
+}
