@@ -18,9 +18,8 @@ TrafficLight &operator++(TrafficLight &t) {
   }
 
   return t;
-
 }
-TrafficLight &operator++(TrafficLight &t,int) {
+TrafficLight &operator++(TrafficLight &t, int) {
 
   switch (t) {
   case TrafficLight::red:
@@ -35,7 +34,6 @@ TrafficLight &operator++(TrafficLight &t,int) {
   }
 
   return t;
-
 }
 
 TrafficLight &operator--(TrafficLight &t) {
@@ -53,16 +51,14 @@ TrafficLight &operator--(TrafficLight &t) {
   }
 
   return t;
-
 }
-
 
 int main(void) {
 
-     TrafficLight light = TrafficLight::red;
-     ++light;
-     ++light;
-     light++;
-     --light;
-     return EXIT_SUCCESS;
+  TrafficLight light = TrafficLight::red;
+  ++light;
+  ++light;
+  light++;
+  --light;
+  return EXIT_SUCCESS;
 }
