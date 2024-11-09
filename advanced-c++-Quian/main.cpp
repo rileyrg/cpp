@@ -1,8 +1,7 @@
+#include <cstdio>
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World!";
-  return 0;
+  const int i = 9;
+  i = 6;
 }
-
-// (dape--default-cwd)
