@@ -13,7 +13,7 @@ public:
   // void setAge(const int a) { age = a; }
   void setAge(int a) { age = a; }
 
-  const std::string &getName() { return name; }
+  const std::string getName() { return name; }
 };
 
 int main() {
