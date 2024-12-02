@@ -6,6 +6,7 @@
 # Don't ignore .gitignore etc
 
 !.gitignore
+!.clang-format
 
 !Makefile
 
