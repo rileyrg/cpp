@@ -1,7 +1,7 @@
 # -*- mode: makefile -*-
 .PHONY: test clean
 
-CFLAGS = -std=c++17 -g -O0 -Wall
+CFLAGS = -std=c++17 -g -O0 -Wall -fstandalone-debug
 LDFLAGS =
 
 all: clean advanced
