@@ -17,10 +17,7 @@ public:
   const std::string getName() { return name; }
 
   // const functions - no member variables changed
-  void printDogName() const {
-    std::cout << name << std::endl;
-    age++;
-  }
+  void printDogName() const { std::cout << getName() << std::endl; }
 };
 
 int main() {
