@@ -13,7 +13,14 @@ public:
   // void setAge(const int a) { age = a; }
   void setAge(int a) { age = a; }
 
+  // const return value
   const std::string getName() { return name; }
+
+  // const functions - no member variables changed
+  void printDogName() const {
+    std::cout << name << std::endl;
+    age++;
+  }
 };
 
 int main() {
