@@ -10,7 +10,10 @@ public:
     age = 3;
     name = "dummy";
   }
-  void setAge(int &a) { age = a; }
+  void setAge(int &a) {
+    age = a;
+    a++;
+  }
 };
 
 int main() {
