@@ -1,11 +1,21 @@
 #include <cstdio>
+#include <iostream>
+
+class Dog {
+  int age;
+  std::string name;
+
+public:
+  Dog() {
+    age = 3;
+    name = "dummy";
+  }
+  void setAge(int &a) { age = a; }
+};
 
 int main() {
-  const int i = 9;
-  // i = 6;
-
-  const_cast<int &>(i) = 6;
-
-  int j = 3;
-  static_cast<const int &>(j) = 7;
+  Dog d;
+  int i = 9;
+  d.setAge(i);
+  std::cout << i << std::endl;
 }
