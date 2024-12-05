@@ -7,8 +7,8 @@ LDFLAGS =
 all: clean advanced
 
 advanced: main.cpp
-	clang++ $(CFLAGS) -o advanced  main.cpp $(LDFLAGS)
-
+	clang++ $(CFLAGS) -o advanced main.cpp $(LDFLAGS)
+	ln -sf advanced a.out
 test: advanced
 	./advanced
 

@@ -6,39 +6,38 @@
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
 #include <glm/mat4x4.hpp>
 #include <glm/vec4.hpp>
-
 #include <iostream>
 
 int main() {
-  glfwInit();
+    glfwInit();
 
-  int a = 3;
-  int b = a + 6;
+    int a = 3;
+    int b = a + 6;
 
-  glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-  GLFWwindow *window =
-      glfwCreateWindow(800, 600, "Vulkan window", nullptr, nullptr);
+    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+    GLFWwindow *window =
+        glfwCreateWindow(800, 600, "Vulkan window", nullptr, nullptr);
 
-  uint32_t extensionCount = 1;
-  vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
+    uint32_t extensionCount = 1;
+    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
 
-  std::cout << extensionCount << " extensions supported\n";
+    std::cout << extensionCount << " extensions supported\n";
 
-  glm::mat4 matrix;
-  glm::vec4 vec;
-  auto test = matrix * vec;
+    glm::mat4 matrix;
+    glm::vec4 vec;
+    auto test = matrix * vec;
 
-  glm::mat4 x;
+    glm::mat4 x;
 
-  a = 3;
+    a = 3;
 
-  while (!glfwWindowShouldClose(window)) {
-    glfwPollEvents();
-  }
+    while (!glfwWindowShouldClose(window)) {
+        glfwPollEvents();
+    }
 
-  glfwDestroyWindow(window);
+    glfwDestroyWindow(window);
 
-  glfwTerminate();
+    glfwTerminate();
 
-  return 0;
+    return 0;
 }
