@@ -1,38 +1,17 @@
 #include <cstdio>
-#include <iostream>
+#include <vector>
 
-class Dog {
-    int age;
-    std::string name;
+class BigArray {
+    std::vector<int> v;
+    int accessCounter;
 
     public:
-    Dog() {
-        age = 3;
-        name = "dummy";
-    }
-    // void setAge(const int a) { age = a; }
-    void setAge(int a) {
-        age = a;
-    }
-    // const return value
-    const std::string &getName() const {
-        return name;
-    }
-
-    // const functions - no member variables changed
-    void printDogName() const {
-        std::cout << name << "const" << std::endl;
-    }
-
-    // non const version is a different version
-    void printDogName() {
-        std::cout << getName() << "non const" << std::endl;
+    int getItem(int index) const {
+        accessCounter++;
+        return v[index];
     }
 };
 
-int main() {
-    Dog d;
-    d.printDogName();
-    const Dog d2;
-    d2.printDogName();
+int main(int argc, char *argv[]) {
+    BigArray b;
 }
