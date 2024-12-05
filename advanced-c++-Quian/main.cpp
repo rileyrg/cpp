@@ -3,7 +3,7 @@
 
 class BigArray {
     std::vector<int> v;
-    int accessCounter;
+    mutable int accessCounter;
 
     public:
     int getItem(int index) const {
