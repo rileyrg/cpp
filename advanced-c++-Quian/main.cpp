@@ -3,11 +3,12 @@
 
 class BigArray {
     std::vector<int> v;
-    mutable int accessCounter;
+    int accessCounter;
 
     public:
     int getItem(int index) const {
-        accessCounter++;
+        //    accessCounter++;
+        const_cast<BigArray *>(this)->accessCounter++;
         return v[index];
     }
 };
