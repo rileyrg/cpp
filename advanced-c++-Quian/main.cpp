@@ -14,7 +14,7 @@ public:
         return v[index];
     }
 
-    void setV2Item(int index, int x) {
+    void setV2Item(int index, int x) const {
         *(v2 + index) = x;
     }
 };
