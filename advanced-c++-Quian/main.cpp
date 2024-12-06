@@ -2,14 +2,20 @@
 #include <vector>
 
 class BigArray {
+
     std::vector<int> v;
     int accessCounter;
+    int *v2;  // another int array
 
-    public:
+public:
     int getItem(int index) const {
-        //    accessCounter++;
+        // accessCounter++;
         const_cast<BigArray *>(this)->accessCounter++;
         return v[index];
+    }
+
+    void setV2Item(int index, int x) {
+        *(v2 + index) = x;
     }
 };
 
