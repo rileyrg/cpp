@@ -17,6 +17,9 @@ public:
     void setV2Item(int index, int x) const {
         *(v2 + index) = x;
     }
+
+    // Quiz
+    const int *const fun(const int *const &p) const;
 };
 
 int main(int argc, char *argv[]) {
