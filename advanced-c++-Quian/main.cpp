@@ -29,8 +29,9 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-    int y=3;
-    int value = getValue(y);
+    int y = 3;
+    const int value = getValue(y);
+    // static_assert(value == 12);
     BigArray ba;
     BigArray bc;
     bc.getItem(1);

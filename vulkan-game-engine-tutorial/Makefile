@@ -1,7 +1,7 @@
 # -*- mode: makefile -*-
 .PHONY: test clean
 
-CFLAGS = -std=c++17 -g -O0 -Wall
+CFLAGS = -std=c++17 -O3 -Wall
 LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 all: clean VulkanTest
