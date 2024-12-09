@@ -1,5 +1,10 @@
+#include <cmath>
 #include <cstdio>
 #include <vector>
+
+constexpr int getValue(int value) {
+    return value * 2;
+}
 
 class BigArray {
 
@@ -19,9 +24,15 @@ public:
     }
 
     // Quiz
-    const int *const fun(const int *const &p) const;
+    const int *const fun(const int *const &p)
+        const;  //(unless (bound-and-true-p yas-minor-mode) (yas-minor-mode 1))
 };
 
 int main(int argc, char *argv[]) {
-    BigArray b;
+    int y=3;
+    int value = getValue(y);
+    BigArray ba;
+    BigArray bc;
+    bc.getItem(1);
+    bc.getItem(123);
 }
